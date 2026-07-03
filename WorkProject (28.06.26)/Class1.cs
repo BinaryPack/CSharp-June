@@ -8,7 +8,7 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            GetSum(-5, -1);
+//            ReverseSeq(5);
 //        }
 //        // 29.06.26
 //        public static string CalculateAge(int birth, int yearTo)
@@ -55,6 +55,18 @@
 //                return result;
 //            }
 //            else return 0;
+//        }
+//        // 03.07.26
+//        public static int[] ReverseSeq(int n)
+//        {
+//            int[] array = new int[n];
+//            int counter = n;
+//            for (int i = 0; i < counter; i++)
+//            {
+//                array[i] = n;
+//                n--;
+//            }
+//            return array;
 //        }
 //    }
 //}
