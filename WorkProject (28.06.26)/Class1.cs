@@ -8,7 +8,8 @@
 //    {
 //        static void Main(string[] args)
 //        {
-//            ReverseSeq(5);
+
+//            SquareDigits(765);
 //        }
 //        // 29.06.26
 //        public static string CalculateAge(int birth, int yearTo)
@@ -67,6 +68,17 @@
 //                n--;
 //            }
 //            return array;
+//        }
+//        // 04.07.26 7kuy
+//        public static int SquareDigits(int n)
+//        {
+//            string? result = null;
+//            string str = Convert.ToString(n);
+//            foreach(char c in str)
+//            {
+//                string a = Convert.ToString(c); int b = Convert.ToInt32(a); result += Convert.ToString(b * b);
+//            }
+//            return Convert.ToInt32(result);
 //        }
 //    }
 //}
